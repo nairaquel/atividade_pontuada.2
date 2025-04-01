@@ -63,10 +63,11 @@ while True:
     decisao = int (input("""
 
 SIM - 1
-NÃO - 2
+NÃO - 0
+                         
 
 DESEJA PEDIR MAIS ALGO? """))
-    if decisao == 2:
+    if decisao == 0:
         break
 
 print ("""
